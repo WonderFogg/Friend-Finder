@@ -1,5 +1,3 @@
-
-
 // DEPENDENCIES
 // Series of npm packages that we will use to give our server useful functionality
 // ==============================================================================
@@ -38,7 +36,7 @@ require("./routes/htmlRoutes")(app);
 // =============================================================================
 
 app.listen(PORT, function() {
-  console.log("App listening on PORT: " + PORT);
+    console.log("App listening on PORT: " + PORT);
 });
 
 
